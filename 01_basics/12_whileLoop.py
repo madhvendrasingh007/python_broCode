@@ -8,3 +8,4 @@ while not food == "q":
     food = input("Enter another food (q to quit): ")
 
 print("bye!")
+# The while loop will continue to ask for food until the user enters "q"
