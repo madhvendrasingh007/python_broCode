@@ -20,7 +20,7 @@ Input data is always returned as a string, regardless of what the user types.
 ```python
 age = age + 1  # ERROR: This fails because you can't add 1 to a string
 ```
-
+ 
 This causes a `TypeError` because Python cannot add an integer to a string.
 
 ### Correct Approaches
