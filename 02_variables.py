@@ -14,3 +14,16 @@ print(type(last_name))  # str
 print(type(age))        # int
 print(type(height)) # float 
 print(type(is_student)) # bool
+
+print("first_name" + first_name) # first_nameKevin
+print("age" + age) # age30
+# This will cause an error because you cannot concatenate a string with an integer
+# To fix this, you can convert the integer to a string using str()
+# Corrected line
+print("age" + str(age)) # age30
+# You can also use f-strings to format the output   
+print(f"age {age}") # age 30
+# You can also use the format() method to format the output
+print("age {}".format(age)) # age 30
+# You can also use the % operator to format the output
+print("age %d" % age) # age 30
