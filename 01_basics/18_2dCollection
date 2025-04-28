@@ -1,0 +1,23 @@
+# 2d Collection 
+
+fruits = ['apple', 'pineapple', 'orange', 'banana']
+vegetable = ['celeray', 'carrot']
+meat = ['fish', 'chicken', 'turkey']
+
+groceries = [fruits, vegetable, meat]
+#or
+groceries_2 = [ ['apple', 'pineapple', 'orange', 'banana'],
+                ['celeray', 'carrot'],
+                ['fish', 'chicken', 'turkey']
+              ]
+
+print(groceries)
+print(groceries[0])
+print(groceries[0][1])
+print(groceries[2][2])
+
+
+for x in groceries_2:
+    for y in x:
+        print(y, end=" ")
+    print()
